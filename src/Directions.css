@@ -1,0 +1,33 @@
+.dir-content > img{
+	width:100%;
+}
+
+.dir-container{
+	padding: 50px;
+}
+
+.dir-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+	padding: 100px 30px ;
+}
+
+.dir-title{
+	font-family: firstreign;
+	font-size: 20pt;
+	padding-bottom: 5px;
+}
+
+.dir-text{
+	font-family: ringbearer;
+	padding: 20px;
+}
+
+.dir-subtitle{
+	margin-top: -10px;
+	margin-bottom: 5px;
+	font-family: ringbearer;
+}

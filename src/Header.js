@@ -18,7 +18,7 @@ export default function Header() {
 					<Link className = "links-button" to = "/">Home</Link>
 					<Link className="links-button" to = "/attractions">Attractions</Link>
 					<Link className="links-button" to = "/celebrities">Celebrities</Link>
-					<Link className="links-button" to = "/accomodations">Accomodations</Link>
+					<Link className="links-button" to = "/accomodations">Accommodations</Link>
 					<Link className="links-button" to = "/directions">Directions</Link>
 				</div>
 			</div>
