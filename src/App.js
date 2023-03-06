@@ -12,12 +12,13 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
+    <Header />
       <Routes>
-        <Route path ="/" element = {<HomeLayout />}>
-          <Route index element = {<HomeLayout />} />
+        <Route path ="/" element = {<Home />}>
+          <Route index element = {<Home />} />
         </Route>
-        <Route  path = "/attractions" element = {<AttractionsLayout />}>
-          <Route index element = {<AttractionsLayout />} />
+        <Route  path = "/attractions" element = {<Attractions />}>
+          <Route index element = {<Attractions />} />
         </Route>
         {/*<Route path = "celebrities" element = {<celebrities />} />
         <Route path = "accomodations" element = {<accomodations />} />
@@ -27,25 +28,6 @@ export default function App() {
 
     </div>
   );
-}
-
-function HomeLayout(){
-  return (
-    <div>
-      <Header />
-      <Home />
-    </div>
-
-    );
-}
-
-function AttractionsLayout(){
-  return(
-    <div>
-      <Header />
-      <Attractions />
-    </div>
-  )
 }
 
 function NoMatch(){
