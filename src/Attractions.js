@@ -13,7 +13,7 @@ export default function Attractions() {
 					Counsil of Elrond
 					</div>
 					<img src="./images/council-of-elrond.png" alt="" />
-					<div className="text">Visit where the meeting of the council of Elrond took place</div>
+					<div className="page-text">Visit where the meeting of the council of Elrond took place</div>
 				</div>
 				<div className = "divider" />
 				<div className = "page-content">
