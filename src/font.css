@@ -1,0 +1,17 @@
+@font-face{
+	font-family: 'aniron';
+	src: local('aniron'),
+		url(./fonts/Anironc-d9DK.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: 'ringbearer';
+	src: local('ringbearer'),
+		url(./fonts/RingBearer.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: 'firstreign';
+	src: local('firstreign'),
+		url(./fonts/FirstReign.otf) format('opentype');
+}
